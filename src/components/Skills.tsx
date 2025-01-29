@@ -1,24 +1,24 @@
 const Skills = () => {
   const skills = [
     { 
+      name: "Angular Development",
+      level: "Advanced",
+      technologies: "Angular, TypeScript, RxJS, NgRx"
+    },
+    { 
       name: "Frontend Development",
       level: "Advanced",
-      technologies: "React, TypeScript, Tailwind CSS"
+      technologies: "HTML5, CSS3, JavaScript, Bootstrap"
     },
     { 
-      name: "Backend Development",
+      name: "Testing",
       level: "Intermediate",
-      technologies: "Node.js, Express, MongoDB"
+      technologies: "Jasmine, Karma, Protractor"
     },
     { 
-      name: "UI/UX Design",
-      level: "Intermediate",
-      technologies: "Figma, Adobe XD"
-    },
-    { 
-      name: "Version Control",
+      name: "Version Control & Tools",
       level: "Advanced",
-      technologies: "Git, GitHub"
+      technologies: "Git, GitHub, Angular CLI"
     }
   ];
 

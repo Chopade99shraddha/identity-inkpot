@@ -1,21 +1,21 @@
 const Projects = () => {
   const projects = [
     {
-      title: "E-commerce Platform",
-      description: "A full-stack e-commerce platform built with React and Node.js",
-      technologies: ["React", "Node.js", "MongoDB", "Express"],
+      title: "Angular E-commerce Dashboard",
+      description: "A comprehensive admin dashboard for managing online store operations",
+      technologies: ["Angular", "TypeScript", "NgRx", "Material UI"],
       link: "#"
     },
     {
-      title: "Task Management App",
-      description: "A responsive task management application with real-time updates",
-      technologies: ["React", "Firebase", "Tailwind CSS"],
+      title: "Task Management System",
+      description: "Real-time task tracking application with team collaboration features",
+      technologies: ["Angular", "RxJS", "Firebase", "Bootstrap"],
       link: "#"
     },
     {
-      title: "Portfolio Website",
-      description: "A personal portfolio website showcasing my work and skills",
-      technologies: ["React", "TypeScript", "Tailwind CSS"],
+      title: "Healthcare Portal",
+      description: "Patient management system with appointment scheduling and medical records",
+      technologies: ["Angular", "TypeScript", "Node.js", "MongoDB"],
       link: "#"
     }
   ];
@@ -23,7 +23,7 @@ const Projects = () => {
   return (
     <section className="py-20 bg-white" id="projects">
       <div className="container mx-auto px-6">
-        <h2 className="text-4xl font-bold text-text mb-12 text-center">Featured Projects</h2>
+        <h2 className="text-4xl font-bold text-text mb-12 text-center">Featured Angular Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div 
