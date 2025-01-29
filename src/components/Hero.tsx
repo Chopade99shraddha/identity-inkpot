@@ -11,7 +11,7 @@ const Hero = () => {
           className="mb-8"
         >
           <span className="bg-primary px-4 py-1 text-white rounded-full text-sm mb-4 inline-block">
-            Angular Developer
+          Hello, I'm Shraddha Chopade
           </span>
         </motion.div>
         <motion.h1 
@@ -20,7 +20,7 @@ const Hero = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-5xl md:text-7xl font-bold text-text mb-6"
         >
-          Angular Development Expert
+          Specializing in building robust and scalable web applications with Angular
         </motion.h1>
         <motion.p 
           initial={{ opacity: 0, y: 20 }}

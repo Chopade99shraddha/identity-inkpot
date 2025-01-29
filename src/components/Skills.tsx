@@ -11,11 +11,6 @@ const Skills = () => {
       technologies: "HTML5, CSS3, JavaScript, Bootstrap"
     },
     { 
-      name: "Testing",
-      level: "Intermediate",
-      technologies: "Jasmine, Karma, Protractor"
-    },
-    { 
       name: "Version Control & Tools",
       level: "Advanced",
       technologies: "Git, GitHub, Angular CLI"
